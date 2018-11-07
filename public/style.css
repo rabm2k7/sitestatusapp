@@ -1,0 +1,84 @@
+body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+#items {
+  background: #fff;
+  border-radius: 4px;
+  padding: 35px;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+}
+
+button {
+  background: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  clear: both;
+}
+
+.traffic-light {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  float: right;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.light {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  opacity: 0.2;
+}
+
+.red {
+  background-color: red;
+  box-shadow: 0px 0px 10px red;
+}
+
+.green {
+  background-color: green;
+  box-shadow: 0px 0px 10px green;
+}
+
+.bright {
+  opacity: 1;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.animateFlash{
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
